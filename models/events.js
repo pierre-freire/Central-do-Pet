@@ -5,8 +5,8 @@ const Schema = mongoose.Schema;
 const Event = mongoose.model('Event', {
   name: String,
   avatar: String,
-  startDate: String,
-  endDate: String,
+  startDate: Date,
+  endDate: Date,
   timetable: String,
   state: String,
   city: String,

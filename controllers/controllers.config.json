@@ -1,6 +1,26 @@
 [
   {"model": "animal", "controller": "create"},
   {"model": "animal", "controller": "delete"},
+  {"model": "animal", "controller": "index"},
   {"model": "animal", "controller": "update"},
-  {"model": "animal", "controller": "index"}
+
+  {"model": "event", "controller": "create"},
+  {"model": "event", "controller": "delete"},
+  {"model": "event", "controller": "index"},
+  {"model": "event", "controller": "update"},
+
+  {"model": "ccz", "controller": "create"},
+  {"model": "ccz", "controller": "delete"},
+  {"model": "ccz", "controller": "index"},
+  {"model": "ccz", "controller": "update"},
+
+  {"model": "ong", "controller": "create"},
+  {"model": "ong", "controller": "delete"},
+  {"model": "ong", "controller": "index"},
+  {"model": "ong", "controller": "update"},
+
+  {"model": "simple", "controller": "create"},
+  {"model": "simple", "controller": "delete"},
+  {"model": "simple", "controller": "index"},
+  {"model": "simple", "controller": "update"}
 ]

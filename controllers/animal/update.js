@@ -1,7 +1,7 @@
 const Animal = require('../../models/animals.js');
 
 module.exports = (app) => {
-  app.put('/animals/:id', (req, res) => {
+  app.put('/animal/:id', (req, res) => {
     Animal.update({ _id: req.params.id }, req.body, {}, (err) => {
       if (err) {
         res.status(400).json({});
