@@ -1,3 +1,6 @@
 [
-  
+  {"model": "animal", "controller": "create"},
+  {"model": "animal", "controller": "delete"},
+  {"model": "animal", "controller": "update"},
+  {"model": "animal", "controller": "index"}
 ]
