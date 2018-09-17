@@ -39,11 +39,11 @@ controllers.forEach((c) => {
 });
 
 
-app.get('/teste', function (req, res) {
+app.get('/teste', (req, res) => {
   res.send('Hello World');
 })
 
-const serverPort = 3000;
+const serverPort = process.env.PORT || 3000;
 const serverIpAddress = '127.0.0.1';
 
 app.listen(serverPort, serverIpAddress, () => {
