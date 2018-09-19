@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const Mongoose = require('mongoose');
 
 const app = express();
-app.use(express.static('public')); // set the static files location /public
+app.use(express.static('./central-do-pet/public')); // set the static files location /public
 app.use(morgan(':method :url :status - :response-time ms'));
 app.use(bodyParser.urlencoded({ limit: '10mb', extended: 'true' }));// parse application/x-www-form-urlencoded
 app.use(bodyParser.json({ limit: '20mb' }));// parse application/json
