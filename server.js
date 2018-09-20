@@ -43,7 +43,7 @@ app.get('/teste', (req, res) => {
   res.send('Hello World');
 })
 
-const serverPort = process.env.PORT || 3000;
+const serverPort = process.env.PORT || 8080;
 const serverIpAddress = '127.0.0.1';
 
 app.listen(serverPort, serverIpAddress, () => {
